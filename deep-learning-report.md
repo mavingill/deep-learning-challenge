@@ -4,6 +4,8 @@ The report should contain the following:
 
 Overview of the analysis: Explain the purpose of this analysis.
 
+The purpose of this analysis was to use machine learning algorithims and neural networks to unconver whether individuals would be successful when selected by Alphabet Soup. 
+
 Results: Using bulleted lists and images to support your answers, address the following questions:
 
 
@@ -31,5 +33,40 @@ Unfortunately, the target model performance of 75% accuracy was not reached in e
 Efforts to Improve Model Performance:
 To enhance the model's performance, several steps were undertaken, including the addition of more hidden layers, the removal of certain columns, increasing the number of hidden nodes, and altering the activation functions applied to each layer. These adjustments aimed to improve the model's accuracy.
 
+
+First Attempt:
+My first attempt resulted in an accuracy of 73%. I used the following information:
+
+hidden_nodes_layer1 = 5
+hidden_nodes_layer2 = 5
+epoch: 100
+
+The result was the following graph:
+![Alt text](image-1.png)
+
+Second Attempt:
+My second attempt resulted in an accuracy of 72.6%. I used the following information to get this result:
+
+hidden_nodes_layer1 = 12
+hidden_nodes_layer2 = 10
+epoch: 100
+
+The result was the following graph:
+![Alt text](image-2.png)
+
+
+Third Attempt:
+My final attempt resulted in an accuracy of 72.7%. I used the following information to get this result:
+
+hidden_nodes_layer1 = 20
+hidden_nodes_layer2 = 30
+epoch: 100
+
+The result was the following graph:
+![Alt text](image-3.png)
+
+
 Summary:
 In summary, the deep learning model achieved an accuracy of approximately 73% when addressing the classification problem. To potentially achieve higher predictive accuracy, a different approach is recommended. One possible solution involves enhancing the correlation between input and output by conducting more thorough data preprocessing and using a model with varied activation functions. Continuous iteration and experimentation are advised to attain the desired higher accuracy.
+
+[def]: image.png
