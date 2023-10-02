@@ -42,7 +42,7 @@ hidden_nodes_layer2 = 5
 epoch: 100
 
 The result was the following graph:
-![Alt text](image-1.png)
+![Alt text](image-4.png)
 
 Second Attempt:
 My second attempt resulted in an accuracy of 72.6%. I used the following information to get this result:
@@ -52,7 +52,7 @@ hidden_nodes_layer2 = 10
 epoch: 100
 
 The result was the following graph:
-![Alt text](image-2.png)
+![Alt text](image-5.png)
 
 
 Third Attempt:
@@ -63,7 +63,7 @@ hidden_nodes_layer2 = 30
 epoch: 100
 
 The result was the following graph:
-![Alt text](image-3.png)
+![Alt text](image-6.png)
 
 
 Summary:
